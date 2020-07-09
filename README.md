@@ -1,5 +1,7 @@
 ## Magic Translator
 
+[https://github.com/qiaen/magic-translator](https://github.com/qiaen/magic-translator)
+
 这是一个基于Vue的chrome浏览器插件，提供了文本翻译和网址二维码生成工具，通过这个实践，你将知道如何开发一个浏览器插件。
 
 在开始之前先看看效果（如果无法查看图片效果请[点击这里](https://www.jianshu.com/p/f4f8273e7b7a)）

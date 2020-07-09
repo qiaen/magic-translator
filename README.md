@@ -3,6 +3,7 @@
 这是一个基于Vue的chrome浏览器插件，提供了文本翻译和网址二维码生成工具，通过这个实践，你将知道如何开发一个浏览器插件。
 
 在开始之前先看看效果（如果无法查看图片效果请[点击这里](https://www.jianshu.com/p/f4f8273e7b7a)）
+
 ![插件效果](https://upload-images.jianshu.io/upload_images/8535415-8fb45b6c6b512047.gif?imageMogr2/auto-orient/strip)
 
 ### 第一步
@@ -10,6 +11,7 @@
 打开有道智云[https://ai.youdao.com](https://ai.youdao.com/)，登陆之后，
 
 创建一个应用，
+
 ![创建应用](https://upload-images.jianshu.io/upload_images/8535415-2dea8e3329242788.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
@@ -40,12 +42,14 @@ API文档可以参考这里做开发
 ### 第三步
 
 打开拓展程序管理，并开启开发者模式
+
 ![打开拓展管理](https://upload-images.jianshu.io/upload_images/8535415-fa3a4fbf665a4e9f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![启用开发者模式并加载文件](https://upload-images.jianshu.io/upload_images/8535415-c842a089eb8ceb65.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 选择“magic-translator”，你会看到“拓展程序”里多了Magic Translator
 
 并且右上角也多了个可爱的小图标
+
 ![创建完成](https://upload-images.jianshu.io/upload_images/8535415-e835de4c9c62bfc6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 自此，完满成功！

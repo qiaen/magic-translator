@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Magic Translator</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+	<div id="main" :class="{once,totop}">
+		<p style="font-family: Arial;padding-bottom: 12px;">
+			<span style="font-size: 17px;color: #fff;">Magic</span> <span style="font-size: 14px;color: #ddd;">Translator</span>
+		</p>
+		<div class="icon middle flex transition3 relative" @click="rotate=!rotate">
+			<div class="circl1 circl"></div>
+			<div class="circl2 circl"></div>
+			<div class="inter-flip" :class="{'rotate-it': rotate}">
+				<div class="inter-front center">
+					<img src="img/search-4.png" alt="">
+				</div>
+				<div id="qrcode" class="center inter-back"></div>
+			</div>
+		</div>
+		<div class="flex transition3 searchbox">
+			<input type="text" v-focus v-model="keywords" @keyup.enter="search" placeholder="在此输入要翻译的文本" value="">
+			<a class="s1" @click="search"></a>
+			<a class="s2 clear" @click="once=totop=rotate=false;keywords=''"></a>
+		</div>
+		<ul v-html="result" class="result transition4"></ul>
+	</div>
+</body>
+<script src="js/xhr.js"></script>
+<script src="js/vue.min.js"></script>
+<script src="js/vue.directive.js"></script>
+<script src="js/popup.js"></script>
+<script src="js/qrcode.min.js"></script>
+<script src="js/ip.js"></script>
+<script src="js/md5.js"></script>
+<script src="js/sha256.js"></script>
+
+</html>

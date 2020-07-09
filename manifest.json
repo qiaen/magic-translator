@@ -1,0 +1,48 @@
+{
+   "background": {
+      "scripts": ["js/background.js"]
+   },
+   "chrome_url_overrides": {},
+   "description": "基于Vue，采用有道api开发的浏览器插件，支持英汉自动识别并互译",
+   "icons": {
+      "128": "img/ico128.png",
+      "16": "img/ico16.png",
+      "48": "img/ico48.png",
+      "96": "img/ico96.png"
+   },
+   "manifest_version": 2,
+   "name": "Magic Translator",
+   "offline_enabled": true,
+   "browser_action": {
+      "default_icon": "img/ico48.png",
+      "default_popup": "popup.html",
+      "default_title": "Magic Translator"
+   },
+   "content_security_policy": "style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "permissions": [
+      "background",
+      "contextMenus",
+      "geolocation",
+      "management",
+      "topSites",
+      "bookmarks",
+      "unlimitedStorage",
+      "topSites",
+      "identity",
+      "http://*/",
+      "https://*/",
+      "chrome://favicon/",
+      "history",
+      "alarms",
+      "notifications",
+      "tabs",
+      "storage",
+      "activeTab",
+      "declarativeContent",
+      "webNavigation",
+      "webRequest",
+      "webRequestBlocking",
+      "cookies"
+   ],
+   "version": "1.0.3"
+}
